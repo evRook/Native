@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "lib",
-    "slug": "lib",
+    "slug": "native",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -25,6 +25,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1ce49bb5-5fa4-457f-9bca-85c5f1e0ae01"
+      }
+    },
+    "owner": "evrook"
   }
 }
