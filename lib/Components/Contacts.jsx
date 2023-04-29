@@ -12,11 +12,11 @@ import style from '../styles'
 const Contacts = ({navigation}) => {
 
     return ( 
-        <View style={style.container}>     
-            <TouchableOpacity style={style.button} onPress={() => Linking.openURL('http://google.com')}>
+        <View style={style.contactsContainer}>     
+            <TouchableOpacity style={style.button} onPress={() => Linking.openURL('https://www.linkedin.com/in/ericspychalski/')}>
                 <Text>LinkedIn</Text>
             </TouchableOpacity>
-            <TouchableOpacity style={style.button} onPress={() => Linking.openURL('http://google.com')}>
+            <TouchableOpacity style={style.button} onPress={() => Linking.openURL('https://github.com/evRook')}>
                 <Text>GitHub</Text>
             </TouchableOpacity>
         </View>
